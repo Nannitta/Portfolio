@@ -1,4 +1,4 @@
-import LogoTecnologia from "./LogoTecnologia";
+import LogoTecnologia from './LogoTecnologia';
 
 const ListaTecnologias = () => {
   return (
@@ -14,7 +14,7 @@ const ListaTecnologias = () => {
       <LogoTecnologia iconTechnology={'vite'}/>
       <LogoTecnologia iconTechnology={'bootstrap'}/>
     </ul>
-  )
-}
+  );
+};
 
 export default ListaTecnologias;

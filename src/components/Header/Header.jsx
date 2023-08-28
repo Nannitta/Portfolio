@@ -1,18 +1,12 @@
-import Logo from "./Logo";
-import MenuLink from "./MenuLink";
-
+import Logo from './Logo';
+import './header.css';
 
 const Header = () => {
   return (
     <header>
       <Logo/>
-      <nav>
-        <MenuLink text={'Sobre mi'} linkId={'#Sobremi'}/>
-        <MenuLink text={'Tecnologías'} linkId={'#Tecnologias'}/>
-        <MenuLink text={'Proyectos'} linkId={'#Proyectos'}/>
-      </nav>
     </header>
-  )
-}
+  );
+};
 
 export default Header;

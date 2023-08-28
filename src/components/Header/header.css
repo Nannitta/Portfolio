@@ -1,0 +1,8 @@
+header {
+  height: 6.5rem;
+  background-color: transparent;
+  position: absolute;
+  top: 0.5rem;
+  left: 2rem;
+  z-index: 2;
+}

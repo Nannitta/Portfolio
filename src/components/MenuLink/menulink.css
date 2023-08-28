@@ -1,0 +1,46 @@
+.section-links:before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 5rem;
+  margin-right: 5px;
+  background: var(--greenColor);
+}
+
+.section-links:nth-child(2):before {
+  background: var(--darkColor);
+}
+
+.section-links {
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  transform: translate(-95%);
+  width: 25rem;
+  height: 7rem;
+  padding-left: 2rem;
+}
+
+.section-links:hover {
+  transform: translate(0);
+  border-right: 3.5rem solid var(--lightColor);
+  border-top: 3.5rem solid transparent;
+  border-bottom: 3.5rem solid transparent;
+}
+
+.section-links:nth-child(odd) {
+  background-color: var(--greenColor);
+}
+
+.section-links:nth-child(even) {
+  background-color: var(--darkColor);
+}
+
+.section-links a {
+  font-size: 3rem;
+/*   */
+}
+
+.section-links a:visited {
+  color: var(--lightColor);
+}

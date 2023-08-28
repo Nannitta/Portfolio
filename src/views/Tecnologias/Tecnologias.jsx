@@ -1,4 +1,4 @@
-import ListaTecnologias from "./ListaTecnologias";
+import ListaTecnologias from './ListaTecnologias';
 
 const Tecnologias = () => {
   return (
@@ -7,7 +7,7 @@ const Tecnologias = () => {
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, id?</p>
       <ListaTecnologias/>
     </section>
-  )
-}
+  );
+};
 
 export default Tecnologias;
