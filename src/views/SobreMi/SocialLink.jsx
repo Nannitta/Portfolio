@@ -5,11 +5,11 @@ const SocialLink = ({ iconName }) => {
     <a href="">
       <img src={`icons/social/${iconName}.svg`} alt={iconName} />
     </a>
-  )
-}
+  );
+};
 
 SocialLink.propTypes = {
   iconName: PropTypes.oneOf(['github', 'gmail', 'linkedin']).isRequired
-}
+};
 
 export default SocialLink;

@@ -1,0 +1,9 @@
+.section-menu {
+  position: fixed;
+  z-index: 2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12rem;
+}
+

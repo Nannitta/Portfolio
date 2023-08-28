@@ -1,0 +1,17 @@
+#root {
+  --darkColor: #212529;
+  --greenColor: #548C2F;
+  --lightColor: #F1F2EB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container-app {
+  background-color: var(--lightColor);
+}
