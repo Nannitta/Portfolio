@@ -3,11 +3,11 @@ import SocialLink from './SocialLink';
 
 const SobreMi = () => {
   return (
-    <section id='#Sobremi' className='sobremi'>
+    <section id='Sobremi' className='sobremi'>
       <div className='img-gradient'>
         <div className="text-container">
-          <h1>Hola, Soy <br /><span>Nair González</span></h1>
-          <p>Junior Web Developer</p>
+          <h1>Hola, Soy <br /><span>Nair Gonzalez</span></h1>
+          <h2 className='job'>Junior Web Developer</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eaque,
             consectetur fuga aliquam ab voluptate suscipit quia sapiente recusandae
