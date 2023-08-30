@@ -1,44 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .section-links:before {
   content: "";
   display: inline-block;
   width: 15px;
   height: 5rem;
-  margin-right: 5px;
-  background: var(--greenColor);
-}
-
-.section-links:nth-child(2):before {
-  background: var(--darkColor);
+  margin-left: 5px;
 }
 
 .section-links {
   display: flex;
   align-items: center;
   transition: transform 0.3s ease-in-out;
-  transform: translate(-95%);
+  transform: translate(95%);
   width: 25rem;
   height: 7rem;
   padding-left: 2rem;
-}
-
-.section-links:hover {
-  transform: translate(0);
-  border-right: 3.5rem solid var(--lightColor);
-  border-top: 3.5rem solid transparent;
-  border-bottom: 3.5rem solid transparent;
 }
 
 .section-links:nth-child(odd) {
   background-color: var(--greenColor);
 }
 
+.section-links:nth-child(odd):hover {
+  transform: translate(0);
+  border-left: 3.5rem solid transparent;
+  border-top: 3.5rem solid var(--greenColor);
+  border-bottom: 3.5rem solid var(--greenColor);
+  background-color: transparent;
+}
+
 .section-links:nth-child(even) {
   background-color: var(--darkColor);
 }
 
+.section-links:nth-child(even):hover {
+  transform: translate(0);
+  border-left: 3.5rem solid transparent;
+  border-top: 3.5rem solid var(--darkColor);
+  border-bottom: 3.5rem solid var(--darkColor);
+  background-color: transparent;
+}
+
 .section-links a {
   font-size: 3rem;
-/*   */
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .section-links a:visited {
