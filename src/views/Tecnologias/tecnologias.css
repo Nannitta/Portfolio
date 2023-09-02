@@ -1,4 +1,18 @@
 .tecnologias {
   height: 50vh;
   background-color: var(--greenColor);
+  color: var(--lightColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tecnologias h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.tecnologias p {
+  margin-bottom: 3rem;
 }
