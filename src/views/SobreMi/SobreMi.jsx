@@ -1,5 +1,7 @@
+import GitHub from './Logos/GitHub';
+import Gmail from './Logos/Gmail';
+import Linkedin from './Logos/Linkedin';
 import './sobremi.css';
-import SocialLink from './SocialLink';
 
 const SobreMi = () => {
   return (
@@ -16,9 +18,9 @@ const SobreMi = () => {
             laudantium vitae voluptatum error nihil modi, aspernatur nulla animi.
           </p>
           <div className="social-links">
-            <SocialLink iconName={'github'}/>
-            <SocialLink iconName={'linkedin'}/>
-            <SocialLink iconName={'gmail'}/>
+            <GitHub/>
+            <Gmail/>
+            <Linkedin/>
           </div>
         </div>
       </div>
