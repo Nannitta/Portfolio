@@ -8,7 +8,7 @@ import Postman from '../Logos/Postman';
 import React from '../Logos/React';
 import Vite from '../Logos/Vite';
 import Bootstrap from '../Logos/Bootstrap';
-import './listatecnologias.css';
+import './listaTecnologias.css';
 
 const ListaTecnologias = () => {
   return (
