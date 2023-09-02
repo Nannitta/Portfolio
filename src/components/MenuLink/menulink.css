@@ -45,6 +45,7 @@
 .section-links a {
   font-size: 3rem;
   font-family: 'Bebas Neue', sans-serif;
+  color: var(--lightColor);
 }
 
 .section-links a:visited {
