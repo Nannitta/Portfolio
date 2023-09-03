@@ -1,0 +1,26 @@
+.project {
+  width: 30rem;
+  padding: 1.5rem;
+  border: 1px solid var(--darkColor);
+  background-color: #f6f7f1;
+  box-shadow: 8px 8px 1px 2px var(--darkColor);
+}
+
+.project img {
+  width: 250px;
+}
+
+.languajes {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.links {
+  display: flex;
+  justify-content: end;
+  gap: 0.8rem;
+}
+
+.project h1 {
+  color: var();
+}

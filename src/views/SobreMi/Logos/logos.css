@@ -1,0 +1,7 @@
+.social-logo:hover {
+  transform: scale(1.2);
+}
+
+.social-logo:hover svg path {
+  fill: var(--greenColor);
+}

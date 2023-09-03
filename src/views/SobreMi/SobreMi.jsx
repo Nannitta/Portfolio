@@ -1,3 +1,4 @@
+import Cv from './Logos/Cv';
 import GitHub from './Logos/GitHub';
 import Gmail from './Logos/Gmail';
 import Linkedin from './Logos/Linkedin';
@@ -18,6 +19,7 @@ const SobreMi = () => {
             laudantium vitae voluptatum error nihil modi, aspernatur nulla animi.
           </p>
           <div className="social-links">
+            <Cv/>
             <GitHub/>
             <Gmail/>
             <Linkedin/>
