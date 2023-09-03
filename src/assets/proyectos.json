@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Zelda Timeline",
+    "description": "Aplicación basada en un Timeline de videojuegos de la saga 'The Legend of Zelda', la cual extrae datos de una API, ofreciendo al usuario una experiencia interactiva y atractiva para explorar los diferentes videojuegos lanzados a lo largo de la historia.",
+    "languajes": ["html", "css", "javascript"],
+    "github": "https://github.com/Nannitta/ZeldaTimeline",
+    "website": "https://zeldatimeline.vercel.app/",
+    "image": "src/assets/projectsImages/zelda.png"
+  },
+  {
+    "id": "2",
+    "title": "Weather App",
+    "description": "Aplicación basada en la previsión meteorológica que recoge los datos de la API Weatherapi.com. Proporciona información sobre el tiempo actual, la previsión para las próximas cinco horas, información general de los próximos dos días, hora de la salida y puesta de sol, radiación UV, viento y velocidad...",
+    "languajes": ["html", "css", "javascript"],
+    "github": "https://github.com/Nannitta/WeatherAPP",
+    "website": "",
+    "image": "src/assets/projectsImages/weatherApp.png"
+  },
+  {
+    "id": "3",
+    "title": "Rock Paper Scissors",
+    "description": "Basado en el clásico juego de manos 'Piedra, Papel o Tijeras'. Con una interfaz de usuario sencilla, en la que podrás hacer click sobre el icono y seleccionar así tu opción. ¿Conseguirás ganar a tu oponente? ¡Descúbrelo!",
+    "languajes": ["html", "css", "javascript"],
+    "github": "https://github.com/Nannitta/Rock-Paper-Scissors",
+    "website": "https://rock-paper-scissors-nannitta.vercel.app/",
+    "image": "src/assets/projectsImages/rock-paper-scissors.png"
+  }
+]
+

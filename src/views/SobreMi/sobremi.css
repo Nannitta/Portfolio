@@ -57,8 +57,9 @@
 
 .social-links {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: flex-end;
+  align-items: center;
 }
 
 @keyframes text {
