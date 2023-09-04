@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import LinkGithub from '../ProjectsLinks/LinkGithub';
 import LinkWeb from '../ProjectsLinks/LinkWeb';
 import './projectCard.css';
+import Zelda from '../../../assets/projectsImages/zelda.png';
 
 const ProjectCard = ({projects}) => {
   return (
@@ -11,7 +12,7 @@ const ProjectCard = ({projects}) => {
           <a href={projects.github} target='_blank' rel='noreferrer'><LinkGithub/></a>
           <a href={projects.website} target='_blank' rel='noreferrer'><LinkWeb/></a>
         </div>
-        <div><img src={`src/assets/projectsImages/${projects.image}.png`} alt="Portada proyecto" /></div>
+        <div><img src={Zelda} alt={projects.image} /></div>
         <div className='languajes'>
           {
             projects.languajes.map((languaje, index) => { return <p key={index}>{languaje}</p>;})
