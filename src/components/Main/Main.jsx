@@ -1,6 +1,6 @@
-import Proyectos from '../../views/Proyectos/Proyectos';
-import SobreMi from '../../views/SobreMi/SobreMi';
-import Tecnologias from '../../views/Tecnologias/Tecnologias';
+import Projects from '../../views/MyProjects/Projects';
+import AboutMe from '../../views/AboutMe/Aboutme';
+import Technologies from '../../views/Technologies/Technologies';
 import MenuLink from '../MenuLink/MenuLink';
 import './main.css';
 
@@ -14,9 +14,9 @@ const Main = () => {
           <MenuLink text={'Proyectos'} linkId={'#Proyectos'}/>
         </ul>
       </nav>
-      <SobreMi/>
-      <Tecnologias/>
-      <Proyectos/>
+      <AboutMe/>
+      <Technologies/>
+      <Projects/>
     </main>
   );
 };

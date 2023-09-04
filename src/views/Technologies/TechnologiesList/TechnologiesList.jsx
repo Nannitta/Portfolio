@@ -8,9 +8,9 @@ import Postman from '../Logos/Postman';
 import React from '../Logos/React';
 import Vite from '../Logos/Vite';
 import Bootstrap from '../Logos/Bootstrap';
-import './listaTecnologias.css';
+import './technologiesList.css';
 
-const ListaTecnologias = () => {
+const TechnologiesList = () => {
   return (
     <ul className='skills'>
       <Html/>
@@ -27,4 +27,4 @@ const ListaTecnologias = () => {
   );
 };
 
-export default ListaTecnologias;
+export default TechnologiesList;
