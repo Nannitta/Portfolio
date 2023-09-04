@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import LinkGithub from '../LinksProyecto/LinkGithub';
-import LinkWeb from '../LinksProyecto/LinkWeb';
-import './cartaProyecto.css';
+import LinkGithub from '../ProjectsLinks/LinkGithub';
+import LinkWeb from '../ProjectsLinks/LinkWeb';
+import './projectCard.css';
 
-const CartaProyecto = ({projects}) => {
+const ProjectCard = ({projects}) => {
   return (
     <li>
       <article className='project'>
@@ -11,7 +11,7 @@ const CartaProyecto = ({projects}) => {
           <a href={projects.github} target='_blank' rel='noreferrer'><LinkGithub/></a>
           <a href={projects.website} target='_blank' rel='noreferrer'><LinkWeb/></a>
         </div>
-        <img src={projects.image} alt="Portada proyecto" />
+        <div><img src={projects.image} alt="Portada proyecto" /></div>
         <div className='languajes'>
           {
             projects.languajes.map((languaje, index) => { return <p key={index}>{languaje}</p>;})
@@ -24,7 +24,7 @@ const CartaProyecto = ({projects}) => {
   );
 };
 
-CartaProyecto.propTypes = {
+ProjectCard.propTypes = {
   projects: PropTypes.shape({
     id: PropTypes.string,
     title: PropTypes.string.isRequired,
@@ -36,4 +36,4 @@ CartaProyecto.propTypes = {
   }).isRequired
 };
 
-export default CartaProyecto;
+export default ProjectCard;

@@ -1,18 +1,18 @@
-import CartaProyecto from '../CartaProyecto/CartaProyecto';
+import ProjectCard from '../ProjectCard/ProjectCard';
 import PropTypes from 'prop-types';
-import './listaProyectos.css';
+import './projectsList.css';
 
-const ListaProyectos = ({projects}) => {
+const ProjectsList = ({projects}) => {
   return (
     <ul className='projects-list'>
       {
-        projects.map((project) => { return <CartaProyecto key={project.id} projects={project}/>;})
+        projects.map((project) => { return <ProjectCard key={project.id} projects={project}/>;})
       }
     </ul>
   );
 };
 
-ListaProyectos.propTypes = {
+ProjectsList.propTypes = {
   projects: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string,
     title: PropTypes.string.isRequired,
@@ -24,4 +24,4 @@ ListaProyectos.propTypes = {
   })).isRequired
 };
 
-export default ListaProyectos;
+export default ProjectsList;

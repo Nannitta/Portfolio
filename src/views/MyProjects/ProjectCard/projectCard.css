@@ -1,0 +1,41 @@
+.project {
+  width: 30rem;
+  height: 26rem;
+  padding: 1.5rem;
+  border: 1px solid var(--darkColor);
+  background-color: #f6f7f1;
+  box-shadow: 8px 8px 1px 2px var(--darkColor);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3rem 6rem 2rem 3rem 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.project img {
+  width: 200px;
+}
+
+.languajes {
+  display: flex;
+  gap: 0.8rem;
+  justify-self: flex-start;
+  margin-top: 1rem;
+}
+
+.links {
+  display: flex;
+  justify-self: end;
+  gap: 0.8rem;
+}
+
+.project h1 {
+  margin-top: 2rem;
+  color: var();
+}
+
+.project p {
+  margin-top: 1rem;
+  grid-row: 5/6;
+  align-self: flex-start;
+}

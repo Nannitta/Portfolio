@@ -2,9 +2,9 @@ import Cv from './Logos/Cv';
 import GitHub from './Logos/GitHub';
 import Gmail from './Logos/Gmail';
 import Linkedin from './Logos/Linkedin';
-import './sobremi.css';
+import './aboutme.css';
 
-const SobreMi = () => {
+const AboutMe = () => {
   return (
     <section id='Sobremi' className='sobremi'>
       <div className='img-gradient'>
@@ -30,4 +30,4 @@ const SobreMi = () => {
   );
 };
 
-export default SobreMi;
+export default AboutMe;
