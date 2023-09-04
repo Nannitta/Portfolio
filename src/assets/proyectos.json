@@ -6,7 +6,7 @@
     "languajes": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Nannitta/ZeldaTimeline",
     "website": "https://zeldatimeline.vercel.app/",
-    "image": "src/assets/projectsImages/zelda.png"
+    "image": "zelda"
   },
   {
     "id": "2",
@@ -15,7 +15,7 @@
     "languajes": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Nannitta/WeatherAPP",
     "website": "",
-    "image": "src/assets/projectsImages/weatherApp.png"
+    "image": "weatherApp"
   },
   {
     "id": "3",
@@ -24,7 +24,7 @@
     "languajes": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Nannitta/Rock-Paper-Scissors",
     "website": "https://rock-paper-scissors-nannitta.vercel.app/",
-    "image": "src/assets/projectsImages/rock-paper-scissors.png"
+    "image": "rock-paper-scissors"
   }
 ]
 

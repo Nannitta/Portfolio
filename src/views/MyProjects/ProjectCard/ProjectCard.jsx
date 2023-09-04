@@ -11,7 +11,7 @@ const ProjectCard = ({projects}) => {
           <a href={projects.github} target='_blank' rel='noreferrer'><LinkGithub/></a>
           <a href={projects.website} target='_blank' rel='noreferrer'><LinkWeb/></a>
         </div>
-        <div><img src={projects.image} alt="Portada proyecto" /></div>
+        <div><img src={`src/assets/projectsImages/${projects.image}.png`} alt="Portada proyecto" /></div>
         <div className='languajes'>
           {
             projects.languajes.map((languaje, index) => { return <p key={index}>{languaje}</p>;})
