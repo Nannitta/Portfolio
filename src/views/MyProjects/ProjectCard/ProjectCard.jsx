@@ -2,9 +2,8 @@ import PropTypes from 'prop-types';
 import LinkGithub from '../ProjectsLinks/LinkGithub';
 import LinkWeb from '../ProjectsLinks/LinkWeb';
 import './projectCard.css';
-import Zelda from '../../../assets/projectsImages/zelda.png';
 
-const ProjectCard = ({projects}) => {
+const ProjectCard = ({projects, image}) => {
   return (
     <li>
       <article className='project'>
@@ -12,7 +11,7 @@ const ProjectCard = ({projects}) => {
           <a href={projects.github} target='_blank' rel='noreferrer'><LinkGithub/></a>
           <a href={projects.website} target='_blank' rel='noreferrer'><LinkWeb/></a>
         </div>
-        <div><img src={Zelda} alt={projects.image} /></div>
+        <div><img src={image} alt={projects.image} /></div>
         <div className='languajes'>
           {
             projects.languajes.map((languaje, index) => { return <p key={index}>{languaje}</p>;})
@@ -34,7 +33,8 @@ ProjectCard.propTypes = {
     github: PropTypes.string.isRequired,
     website: PropTypes.string,
     image: PropTypes.string.isRequired
-  }).isRequired
+  }).isRequired,
+  image: PropTypes.string.isRequired
 };
 
 export default ProjectCard;
