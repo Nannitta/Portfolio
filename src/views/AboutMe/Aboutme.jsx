@@ -1,4 +1,3 @@
-import Cv from './Logos/Cv';
 import GitHub from './Logos/GitHub';
 import Gmail from './Logos/Gmail';
 import Linkedin from './Logos/Linkedin';
@@ -19,7 +18,7 @@ const AboutMe = () => {
             laudantium vitae voluptatum error nihil modi, aspernatur nulla animi.
           </p>
           <div className="social-links">
-            <Cv/>
+            <button>Descargar CV</button>
             <GitHub/>
             <Gmail/>
             <Linkedin/>

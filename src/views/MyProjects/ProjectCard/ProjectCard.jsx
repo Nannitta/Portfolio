@@ -11,14 +11,14 @@ const ProjectCard = ({projects, image}) => {
           <a href={projects.github} target='_blank' rel='noreferrer'><LinkGithub/></a>
           <a href={projects.website} target='_blank' rel='noreferrer'><LinkWeb/></a>
         </div>
-        <div><img src={image} alt={projects.image} /></div>
+        <div className='logo'><img src={image} alt={projects.image} /></div>
         <div className='languajes'>
           {
             projects.languajes.map((languaje, index) => { return <p key={index}>{languaje}</p>;})
           }
         </div>
         <h1>{projects.title}</h1>
-        <p>{projects.description}</p>
+        <p className='description'>{projects.description}</p>
       </article>
     </li>
   );

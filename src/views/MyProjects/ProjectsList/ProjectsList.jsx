@@ -2,11 +2,11 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 import PropTypes from 'prop-types';
 import './projectsList.css';
 import Zelda from '../../../assets/projectsImages/zelda.png';
-import WeatherApp from '../../../assets/projectsImages/weatherApp.png';
+import WeatherApp2 from '../../../assets/projectsImages/weatherApp2.png';
 import Rps from '../../../assets/projectsImages/rock-paper-scissors.png';
 
 const ProjectsList = ({projects}) => {
-  const logos = [Zelda, WeatherApp, Rps];
+  const logos = [Zelda, WeatherApp2, Rps];
   return (
     <ul className='projects-list'>
       {
@@ -25,7 +25,8 @@ ProjectsList.propTypes = {
     github: PropTypes.string.isRequired,
     website: PropTypes.string,
     image: PropTypes.string.isRequired
-  })).isRequired
+  })).isRequired,
+  image: PropTypes.string
 };
 
 export default ProjectsList;

@@ -1,6 +1,12 @@
 .projects-list {
   display: flex;
   justify-content: center;
-  gap: 5rem;
-  height: 30rem;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  align-content: flex-start;
+}
+
+.projects-list li {
+  height: 22rem;
 }

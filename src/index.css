@@ -16,3 +16,7 @@
 .container-app {
   background-color: var(--lightColor);
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+}
