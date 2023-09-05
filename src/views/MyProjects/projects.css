@@ -1,12 +1,16 @@
 .projects {
-  min-height: 100vh;
+  background-image: url('../../assets/blob-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  min-height: 100vh;
 }
 
 .projects h2 {
-  padding: 4rem 0;
+  padding: 3rem 0;
   font-size: 3rem;
   text-align: center;
 }

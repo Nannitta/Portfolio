@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Zelda Timeline",
-    "description": "Aplicación basada en un Timeline de videojuegos de la saga 'The Legend of Zelda', la cual extrae datos de una API, ofreciendo al usuario una experiencia interactiva y atractiva para explorar los diferentes videojuegos lanzados a lo largo de la historia.",
+    "description": "Timeline de videojuegos de la saga 'The Legend of Zelda'. Ofrece al usuario una experiencia interactiva y atractiva para explorar los diferentes videojuegos lanzados a lo largo de la historia.",
     "languajes": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Nannitta/ZeldaTimeline",
     "website": "https://zeldatimeline.vercel.app/",
@@ -11,7 +11,7 @@
   {
     "id": "2",
     "title": "Weather App",
-    "description": "Aplicación basada en la previsión meteorológica que recoge los datos de la API Weatherapi.com. Proporciona información sobre el tiempo actual, la previsión para las próximas cinco horas, información general de los próximos dos días, hora de la salida y puesta de sol, radiación UV, viento y velocidad...",
+    "description": "Proporciona información sobre el tiempo actual, la previsión para las próximas cinco horas, información general de los próximos dos días, viento y velocidad...",
     "languajes": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Nannitta/WeatherAPP",
     "website": "",

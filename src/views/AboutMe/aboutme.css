@@ -62,6 +62,21 @@
   align-items: center;
 }
 
+.social-links button {
+  font-size: 1rem;
+  margin-right: auto;
+  padding: 0.5rem;
+  background-color: #f6f7f1;
+  box-shadow: 2px 2px 1px 1px var(--darkColor);
+}
+
+.social-links button:hover {
+  transform: scale(1.2);
+  color: var(--lightColor);
+  background-color: var(--greenColor);
+  box-shadow: 2px 2px 1px 1px var(--darkColor);
+}
+
 @keyframes text {
 	0% { 
     width: 0; 
