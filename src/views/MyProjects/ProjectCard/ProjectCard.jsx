@@ -2,14 +2,15 @@ import PropTypes from 'prop-types';
 import LinkGithub from '../ProjectsLinks/LinkGithub';
 import LinkWeb from '../ProjectsLinks/LinkWeb';
 import './projectCard.css';
+import { Link } from 'react-router-dom';
 
 const ProjectCard = ({projects, image}) => {
   return (
     <li>
       <article className='project'>
         <div className='links'>
-          <a href={projects.github} target='_blank' rel='noreferrer'><LinkGithub/></a>
-          <a href={projects.website} target='_blank' rel='noreferrer'><LinkWeb/></a>
+          <Link to={projects.github} target='_blank'><LinkGithub/></Link>
+          {projects.website ? <Link to={projects.website} target='_blank'><LinkWeb/></Link> : null}
         </div>
         <div className='logo'><img src={image} alt={projects.image} /></div>
         <div className='languajes'>

@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import './logos.css';
 
 const GitHub = () => {
   return (
-    <a href="https://github.com/Nannitta" target="_blank" rel='noreferrer' className="social-logo">
+    <Link to={'https://github.com/Nannitta'} target='_blank' className='social-logo'>
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
         <path fill="#212529" d="M16 .396c-8.839 0-16 7.167-16 16c0 7.073 4.584 13.068 10.937 
         15.183c.803.151 1.093-.344 1.093-.772c0-.38-.009-1.385-.015-2.719c-4.453.964-5.391-2.151-5.391-2.151c-.729-1.844-1.781-2.339-1.781-2.339c-1.448-.989.115-.968.115-.968c1.604.109 
@@ -13,7 +14,7 @@ const GitHub = () => {
         4.297c0 6.145-3.74 7.5-7.296 7.891c.556.479 1.077 1.464 1.077 2.959c0 2.14-.02 3.864-.02 
         4.385c0 .416.28.916 1.104.755c6.4-2.093 10.979-8.093 10.979-15.156c0-8.833-7.161-16-16-16z"/>
       </svg>
-    </a>
+    </Link>
   );
 };
 
