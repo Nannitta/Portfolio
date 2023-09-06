@@ -1,3 +1,4 @@
+@import 'animate.css';
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
@@ -42,7 +43,8 @@
 }
 
 .text-container p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
 }
 
 .job {
@@ -75,6 +77,14 @@
   color: var(--lightColor);
   background-color: var(--greenColor);
   box-shadow: 2px 2px 1px 1px var(--darkColor);
+}
+
+.social-links button a:visited {
+  color: var(--darkColor);
+}
+
+.social-links button:hover a:visited{
+  color: var(--lightColor);
 }
 
 @keyframes text {

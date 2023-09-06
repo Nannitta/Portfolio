@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
 .tecnologias {
   height: 50vh;
   background-color: var(--greenColor);
@@ -15,4 +17,6 @@
 
 .tecnologias p {
   margin-bottom: 3rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1rem;
 }
