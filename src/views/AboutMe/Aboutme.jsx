@@ -11,14 +11,14 @@ const AboutMe = () => {
           <h1>Hola, Soy <br /><span>Nair Gonzalez</span></h1>
           <h2 className='job'>Junior Web Developer</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eaque,
-            consectetur fuga aliquam ab voluptate suscipit quia sapiente recusandae
-            placeat quas ipsum, id magnam ratione sint soluta explicabo cum ea illo libero.
-            Quo iure ipsum molestias quae commodi totam ea reiciendis,
-            laudantium vitae voluptatum error nihil modi, aspernatur nulla animi.
+          Me encanta diseñar, innovar y experimentar. Soy una persona entusiasta
+          a la cual le motiva afrontar nuevos retos y aprender nuevas habilidades.
+          Programar me ha enseñado que los errores son oportunidades para aprender
+          y que me encuentro en un mundo de posibilidades infinitas.
+          No dudes en ponerte en contacto si sientes que puedo ser de ayuda en tu búsqueda.
           </p>
           <div className="social-links">
-            <button>Descargar CV</button>
+            <button><a href="src/assets/cv.pdf" download>Descargar CV</a></button>
             <GitHub/>
             <Gmail/>
             <Linkedin/>

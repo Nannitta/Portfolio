@@ -5,7 +5,7 @@ const Technologies = () => {
   return (
     <section id="Tecnologias" className='tecnologias'>
       <h2>TECNOLOGÍAS</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, id?</p>
+      <p>« El código es el tejido que une las ideas en el mundo digital »</p>
       <TechnologiesList/>
     </section>
   );
