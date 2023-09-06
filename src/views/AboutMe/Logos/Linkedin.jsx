@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import './logos.css';
 
 const Linkedin = () => {
   return (
-    <a href="https://www.linkedin.com/in/nairglez/" target="_blank" rel='noreferrer' className="social-logo">
+    <Link to={'https://www.linkedin.com/in/nairglez/'} target='_blank' className='social-logo'>
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
         <path fill="#212529" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 
         .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 
@@ -11,7 +12,7 @@ const Linkedin = () => {
         1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252c-1.274 0-1.845.7-2.165 
         1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
       </svg>
-    </a>
+    </Link>
   );
 };
 
