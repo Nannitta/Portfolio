@@ -1,6 +1,7 @@
 import GitHub from './Logos/GitHub';
 import Gmail from './Logos/Gmail';
 import Linkedin from './Logos/Linkedin';
+import cv from '../../assets/cv.pdf';
 import './aboutme.css';
 
 const AboutMe = () => {
@@ -18,7 +19,7 @@ const AboutMe = () => {
           No dudes en ponerte en contacto si sientes que puedo ser de ayuda en tu búsqueda.
           </p>
           <div className="social-links">
-            <button><a href="src/assets/cv.pdf" download>Descargar CV</a></button>
+            <button><a href={cv} download>Descargar CV</a></button>
             <GitHub/>
             <Gmail/>
             <Linkedin/>

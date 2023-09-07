@@ -79,7 +79,7 @@
   box-shadow: 2px 2px 1px 1px var(--darkColor);
 }
 
-.social-links button a:visited {
+.social-links button a:visited, .social-links button a {
   color: var(--darkColor);
 }
 

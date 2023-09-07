@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
-.tecnologias {
+.technologies {
   height: 50vh;
   background-color: var(--greenColor);
   color: var(--lightColor);
@@ -10,12 +10,12 @@
   align-items: center;
 }
 
-.tecnologias h2 {
+.technologies h2 {
   font-size: 3rem;
   margin-bottom: 1.5rem;
 }
 
-.tecnologias p {
+.technologies p {
   margin-bottom: 3rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.1rem;
