@@ -51,3 +51,19 @@
 .section-links a:visited {
   color: var(--lightColor);
 }
+
+.section-links.bg-links {
+  background-color: var(--lightColor);
+}
+
+.section-links.bg-links a {
+  color: var(--darkColor);
+}
+
+.section-links.bg-links:hover {
+  background-color: var(--lightColor);
+  border-left: 3.5rem solid transparent;
+  border-top: 3.5rem solid var(--lightColor);
+  border-bottom: 3.5rem solid var(--lightColor);
+  background-color: transparent;
+}
