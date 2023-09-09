@@ -1,9 +1,9 @@
 import ProjectCard from '../ProjectCard/ProjectCard';
 import PropTypes from 'prop-types';
 import './projectsList.css';
-import Zelda from '../../../assets/projectsImages/zelda.png';
-import WeatherApp from '../../../assets/projectsImages/weatherApp.png';
-import Rps from '../../../assets/projectsImages/rock-paper-scissors.png';
+import Zelda from '../../../assets/projectsImages/zelda.webp';
+import WeatherApp from '../../../assets/projectsImages/weatherApp.webp';
+import Rps from '../../../assets/projectsImages/rock-paper-scissors.webp';
 
 const ProjectsList = ({projects}) => {
   const logos = [Zelda, WeatherApp, Rps];
