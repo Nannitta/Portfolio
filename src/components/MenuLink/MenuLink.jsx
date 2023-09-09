@@ -9,20 +9,17 @@ const MenuLink = ({ text, linkId }) => {
   useEffect(() => {
     function handleScrollY () {
       setScrollY(window.scrollY);
-      console.log(scrollY);      
       const links = document.querySelectorAll('.section-links');
       const [sobremi, , proyectos] = links;
-
+     
       if (scrollY > 400 && scrollY < 900) {
         proyectos.classList.add('bg-links');
-        proyectos.style.transition = 'background-color 0.5s';
       } else {
         proyectos.classList.remove('bg-links');
       }
       
       if (scrollY > 620 && scrollY < 1150) {
-        sobremi.classList.add('bg-links');
-        sobremi.style.transition = 'background-color 0.5s';        
+        sobremi.classList.add('bg-links');    
       } else{
         sobremi.classList.remove('bg-links');        
       }
