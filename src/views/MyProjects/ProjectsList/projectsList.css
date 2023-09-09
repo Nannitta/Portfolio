@@ -10,3 +10,15 @@
 .projects-list li {
   height: 22rem;
 }
+
+@media (max-width: 1360px), (max-height: 768px) {
+  .projects-list li {
+    height: 20.5rem;
+  }
+}
+
+@media (max-width: 1280px), (max-height: 800px) {
+  .projects-list li {
+    margin-bottom: 1rem;
+  }
+}
