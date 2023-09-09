@@ -78,11 +78,11 @@
   box-shadow: 2px 2px 1px 1px var(--darkColor);
 }
 
-.social-links button a:visited {
+.social-links button a:visited, .social-links button a {
   color: var(--darkColor);
 }
 
-.social-links button:hover a:visited{
+.social-links button:hover a:visited, .social-links button:hover a{
   color: var(--lightColor);
 }
 
@@ -92,5 +92,31 @@
   }
 	100% { 
     width: 20ch; 
+  }
+}
+
+@media (max-width: 1360px), (max-height: 768px) {
+  .sobremi {
+    background-position: left;
+  }
+
+  .text-container h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  .text-container h1 > span {
+    font-size: 12rem;
+  }
+}
+
+@media (max-width: 1440px), (max-height: 900px) {
+  .text-container h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  .text-container h1 > span {
+    font-size: 12rem;
   }
 }
