@@ -120,3 +120,14 @@
     font-size: 12rem;
   }
 }
+
+@media (max-width: 1024px), (min-height: 1366px) {
+  .sobremi {
+    background-attachment: initial;
+    background-position: center;
+  }
+
+  .text-container h1 > span {
+    font-size: 9rem;
+  }
+}

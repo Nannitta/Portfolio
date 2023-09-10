@@ -22,3 +22,10 @@
     margin-bottom: 1rem;
   }
 }
+
+@media (max-width: 1024px), (min-height: 1366px) {
+  .projects-list {
+    flex-direction: column;
+    align-content: center;
+  }
+}
