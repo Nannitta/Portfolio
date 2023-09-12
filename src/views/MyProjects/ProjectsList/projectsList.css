@@ -12,6 +12,10 @@
 }
 
 @media (max-width: 1360px), (max-height: 768px) {
+  .projects-list {
+    margin-bottom: 1.2rem;
+  }
+
   .projects-list li {
     height: 20.5rem;
   }
@@ -30,7 +34,7 @@
   }
 }
 
-@media (max-width: 360px), (max-height: 640px) {
+@media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
   .projects-list {
     gap: 5rem;
     margin-bottom: 6rem;

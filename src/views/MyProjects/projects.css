@@ -27,7 +27,7 @@
   }
 }
 
-@media (max-width: 360px), (max-height: 640px) {
+@media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
   .projects {
     display: initial;
   }

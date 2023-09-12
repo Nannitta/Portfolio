@@ -7,7 +7,7 @@ header {
   z-index: 2;
 }
 
-@media (max-width: 360px), (min-height: 640px) {
+@media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
   header svg {
     width: 50px;
   }
