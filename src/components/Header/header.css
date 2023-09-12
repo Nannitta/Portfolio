@@ -6,3 +6,9 @@ header {
   left: 2rem;
   z-index: 2;
 }
+
+@media (max-width: 360px), (min-height: 640px) {
+  header svg {
+    width: 50px;
+  }
+}
