@@ -131,3 +131,38 @@
     font-size: 9rem;
   }
 }
+
+@media (max-width: 360px), (max-height: 640px) {
+  .sobremi {
+    background-image: none;
+  }
+  .text-container {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .text-container h1, .job {
+    font-size: 1.5rem;
+  }
+
+  .text-container h1 > span {
+    font-size: 7rem;
+  }
+
+  .text-container p {
+    font-size: 0.9rem;
+  }
+
+  .social-links svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .social-links button {
+    font-size: 0.8rem;
+    margin-right: auto;
+    padding: 0.2rem 0.4rem;
+    background-color: #f6f7f1;
+    box-shadow: 2px 2px 1px 1px var(--darkColor);
+  }
+}

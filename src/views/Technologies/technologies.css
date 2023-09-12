@@ -20,3 +20,17 @@
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.1rem;
 }
+
+@media (max-width: 360px), (max-height: 640px) {
+  .technologies h2 {
+    font-size: 1.5rem;
+  }
+
+  .technologies p {
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 0.6rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+}
