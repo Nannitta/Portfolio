@@ -3,7 +3,7 @@ import './logos.css';
 
 const GitHub = () => {
   return (
-    <Link to={'https://github.com/Nannitta'} target='_blank' className='social-logo'>
+    <Link to={'https://github.com/Nannitta'} target='_blank' className='social-logo' title='Github'>
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
         <path fill="#212529" d="M16 .396c-8.839 0-16 7.167-16 16c0 7.073 4.584 13.068 10.937 
         15.183c.803.151 1.093-.344 1.093-.772c0-.38-.009-1.385-.015-2.719c-4.453.964-5.391-2.151-5.391-2.151c-.729-1.844-1.781-2.339-1.781-2.339c-1.448-.989.115-.968.115-.968c1.604.109 

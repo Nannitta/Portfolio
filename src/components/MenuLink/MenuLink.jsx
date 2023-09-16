@@ -38,7 +38,7 @@ const MenuLink = ({ text, linkId }) => {
     return () => window.removeEventListener('scroll', handleScrollY);
   }, [scrollY]);
 
-  return <li className='section-links'><HashLink to={`/${linkId}`}>{text}</HashLink></li>;
+  return <li className='section-links'><HashLink to={`/${linkId}`} title={text}>{text}</HashLink></li>;
 };
 
 MenuLink.propTypes = {

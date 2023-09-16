@@ -19,7 +19,7 @@ const AboutMe = () => {
           No dudes en ponerte en contacto si sientes que puedo ser de ayuda en tu búsqueda.
           </p>
           <div className="social-links">
-            <button><a href={cv} download>Descargar CV</a></button>
+            <button><a href={cv} download title='Descargar CV'>Descargar CV</a></button>
             <GitHub/>
             <Gmail/>
             <Linkedin/>

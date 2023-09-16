@@ -9,8 +9,8 @@ const ProjectCard = ({projects, image}) => {
     <li>
       <article className='project'>
         <div className='links'>
-          <Link to={projects.github} target='_blank'><LinkGithub/></Link>
-          {projects.website ? <Link to={projects.website} target='_blank'><LinkWeb/></Link> : null}
+          <Link to={projects.github} target='_blank' title='Github'><LinkGithub/></Link>
+          {projects.website ? <Link to={projects.website} target='_blank' title='Sitio Web'><LinkWeb/></Link> : null}
         </div>
         <div className='logo'><img src={image} alt={projects.image} /></div>
         <div className='languajes'>
