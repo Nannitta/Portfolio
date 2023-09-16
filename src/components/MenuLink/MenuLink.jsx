@@ -10,19 +10,28 @@ const MenuLink = ({ text, linkId }) => {
     function handleScrollY () {
       setScrollY(window.scrollY);
       const links = document.querySelectorAll('.section-links');
+      const technologiesSection = document.querySelector('#Tecnologias');
       const [sobremi, , proyectos] = links;
-     
-      if (scrollY > 400 && scrollY < 900) {
-        proyectos.classList.add('bg-links');
-      } else {
-        proyectos.classList.remove('bg-links');
-      }
       
-      if (scrollY > 620 && scrollY < 1150) {
-        sobremi.classList.add('bg-links');    
-      } else{
-        sobremi.classList.remove('bg-links');        
-      }
+      const colisionVerify = () => {
+        const rectSobremi = sobremi.getBoundingClientRect();
+        const rectProyectos = proyectos.getBoundingClientRect();
+        const rectTechnologiesSection = technologiesSection.getBoundingClientRect();
+
+        if (rectTechnologiesSection.bottom >= rectSobremi.top && rectTechnologiesSection.top <= rectSobremi.bottom) {
+          sobremi.classList.add('bg-links');
+        } else {
+          sobremi.classList.remove('bg-links');  
+        }
+        
+        if (rectTechnologiesSection.bottom >= rectProyectos.top && rectTechnologiesSection.top <= rectProyectos.bottom) {
+          proyectos.classList.add('bg-links');
+        } else {
+          proyectos.classList.remove('bg-links');
+        }
+      };
+      
+      colisionVerify();
     }
     window.addEventListener('scroll', handleScrollY);
 
