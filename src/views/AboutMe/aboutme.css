@@ -4,6 +4,7 @@
 @font-face {
   font-family: 'Harmony';
   src: url('../../assets/fonts/Harmony.ttf');
+  font-display: swap;
 }
 
 .sobremi {

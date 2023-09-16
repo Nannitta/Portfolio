@@ -13,16 +13,16 @@ import './technologiesList.css';
 const TechnologiesList = () => {
   return (
     <ul className='skills'>
-      <Html/>
-      <Css/>
-      <JavaScript/>
-      <MySQL/>
-      <Node/>
-      <Git/>
-      <Postman/>
-      <React/>
-      <Vite/>
-      <Bootstrap/>
+      <li><Html/></li>
+      <li><Css/></li>
+      <li><JavaScript/></li>
+      <li><MySQL/></li>
+      <li><Node/></li>
+      <li><Git/></li>
+      <li><Postman/></li>
+      <li><React/></li>
+      <li><Vite/></li>
+      <li><Bootstrap/></li>
     </ul>
   );
 };
