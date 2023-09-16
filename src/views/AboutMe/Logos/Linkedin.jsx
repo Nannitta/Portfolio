@@ -3,7 +3,7 @@ import './logos.css';
 
 const Linkedin = () => {
   return (
-    <Link to={'https://www.linkedin.com/in/nairglez/'} target='_blank' className='social-logo'>
+    <Link to={'https://www.linkedin.com/in/nairglez/'} target='_blank' className='social-logo' title='Linkedin'>
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
         <path fill="#212529" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 
         .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 
