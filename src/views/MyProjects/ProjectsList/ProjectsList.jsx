@@ -5,10 +5,11 @@ import Zelda from '../../../assets/projectsImages/zelda.webp';
 import WeatherApp from '../../../assets/projectsImages/weatherApp.webp';
 import Rps from '../../../assets/projectsImages/rock-paper-scissors.webp';
 
-const ProjectsList = ({projects}) => {
+const ProjectsList = ({projects, animation}) => {
   const logos = [Zelda, WeatherApp, Rps];
+
   return (
-    <ul className='projects-list'>
+    <ul className={animation}>
       {
         projects.map((project, index) => { return <ProjectCard key={project.id} projects={project} image={logos[index]}/>;})
       }
@@ -26,7 +27,8 @@ ProjectsList.propTypes = {
     website: PropTypes.string,
     image: PropTypes.string.isRequired
   })).isRequired,
-  image: PropTypes.string
+  image: PropTypes.string,
+  animation: PropTypes.string
 };
 
 export default ProjectsList;
