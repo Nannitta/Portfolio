@@ -1,3 +1,5 @@
+@import 'animate.css';
+
 .projects-list {
   display: flex;
   justify-content: center;
@@ -9,6 +11,13 @@
 
 .projects-list li {
   height: 22rem;
+  
+}
+
+.animate__fadeInUp {
+  animation: animate__fadeInUp;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
 }
 
 @media (max-width: 1360px), (max-height: 768px) {
@@ -38,5 +47,9 @@
   .projects-list {
     gap: 7rem;
     margin-bottom: 7rem;
+  }
+
+  .animate__fadeInUp {
+    animation: none;
   }
 }
