@@ -28,10 +28,6 @@
 }
 
 @media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
-  .projects {
-    display: initial;
-  }
-  
   .projects h2 {
     font-size: 1.5rem;
     padding: 1.5rem 0;

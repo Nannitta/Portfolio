@@ -78,10 +78,14 @@
 @media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
   .project {
     width: 20rem;
-    height: 27rem;
+    height: 29rem;
   }
 
   .project .links {
     margin-bottom: 1rem;
+  }
+
+  .languajes {
+    flex-wrap: wrap;
   }
 }
