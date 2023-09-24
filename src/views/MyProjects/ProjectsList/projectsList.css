@@ -45,8 +45,8 @@
 
 @media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
   .projects-list {
-    gap: 7rem;
-    margin-bottom: 7rem;
+    gap: 9rem;
+    margin-bottom: 9rem;
   }
 
   .animate__fadeInUp {
