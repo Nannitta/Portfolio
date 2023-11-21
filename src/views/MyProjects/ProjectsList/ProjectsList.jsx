@@ -5,9 +5,10 @@ import Zelda from '../../../assets/projectsImages/zelda.webp';
 import WeatherApp from '../../../assets/projectsImages/weatherApp.webp';
 import Rps from '../../../assets/projectsImages/rock-paper-scissors.webp';
 import P2P from '../../../assets/projectsImages/p2p.webp';
+import GeoQuiz from '../../../assets/projectsImages/geoquiz.webp';
 
 const ProjectsList = ({projects, animation}) => {
-  const logos = [Zelda, WeatherApp, Rps, P2P];
+  const logos = [P2P, GeoQuiz, Rps, WeatherApp, Zelda];
 
   return (
     <ul className={animation}>

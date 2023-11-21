@@ -1,21 +1,21 @@
 [
   {
     "id": "1",
-    "title": "Zelda Timeline",
-    "description": "Timeline de videojuegos de la saga 'The Legend of Zelda'. Ofrece al usuario una experiencia interactiva y atractiva para explorar los diferentes videojuegos lanzados a lo largo de la historia.",
-    "languajes": ["HTML", "CSS", "JavaScript"],
-    "github": "https://github.com/Nannitta/ZeldaTimeline",
-    "website": "https://zeldatimeline.vercel.app/",
-    "image": "zelda"
+    "title": "P2P - Marketplace",
+    "description": "Plataforma en línea diseñada para la compra y venta de videojuegos, consolas y PCs de segunda mano. La web permite a los usuarios buscar productos, registrarse para obtener acceso completo, publicar sus propios productos...",
+    "languajes": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "React"],
+    "github": "https://github.com/Nannitta/P2P-Marketplace",
+    "website": "https://youtu.be/J51EmE-M_NM",
+    "image": "p2p"
   },
   {
     "id": "2",
-    "title": "Weather App",
-    "description": "Proporciona información sobre el tiempo actual, la previsión para las próximas cinco horas, información general de los próximos dos días, viento y velocidad...",
-    "languajes": ["HTML", "CSS", "JavaScript"],
-    "github": "https://github.com/Nannitta/WeatherAPP",
-    "website": "",
-    "image": "weatherApp"
+    "title": "GeoQuiz",
+    "description": "Adivina el país a partir de su bandera, descubre el mundo adivinando la capital de cada país o trata de averiguar en que continente se encuentra cada uno. ¡Conviértete en un maestro de la geografía!",
+    "languajes": ["React", "TypeScript", "Tailwind"],
+    "github": "https://github.com/Nannitta/GeoQuiz",
+    "website": "https://geoquiz-geoapp.vercel.app/",
+    "image": "geoquiz"
   },
   {
     "id": "3",
@@ -28,12 +28,21 @@
   },
   {
     "id": "4",
-    "title": "P2P - Marketplace",
-    "description": "Plataforma en línea diseñada para la compra y venta de videojuegos, consolas y PCs de segunda mano. La web permite a los usuarios buscar productos, registrarse para obtener acceso completo, publicar sus propios productos...",
-    "languajes": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "React"],
-    "github": "https://github.com/Nannitta/P2P-Marketplace",
-    "website": "https://youtu.be/J51EmE-M_NM",
-    "image": "p2p"
+    "title": "Zelda Timeline",
+    "description": "Timeline de videojuegos de la saga 'The Legend of Zelda'. Ofrece al usuario una experiencia interactiva y atractiva para explorar los diferentes videojuegos lanzados a lo largo de la historia.",
+    "languajes": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/Nannitta/ZeldaTimeline",
+    "website": "https://zeldatimeline.vercel.app/",
+    "image": "zelda"
+  },
+  {
+    "id": "5",
+    "title": "Weather App",
+    "description": "Proporciona información sobre el tiempo actual, la previsión para las próximas cinco horas, información general de los próximos dos días, viento y velocidad...",
+    "languajes": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/Nannitta/WeatherAPP",
+    "website": "",
+    "image": "weatherApp"
   }
 ]
 
