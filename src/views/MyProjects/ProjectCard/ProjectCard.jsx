@@ -5,7 +5,6 @@ import './projectCard.css';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({projects, image}) => {
-  console.log(projects);
   return (
     <li>
       <article className='project'>
