@@ -8,7 +8,7 @@ import P2P from '../../../assets/projectsImages/p2p.webp';
 import GeoQuiz from '../../../assets/projectsImages/geoquiz.webp';
 
 const ProjectsList = ({projects, animation}) => {
-  const logos = [P2P, GeoQuiz, Rps, WeatherApp, Zelda];
+  const logos = [P2P, GeoQuiz, Rps, Zelda, WeatherApp];
 
   return (
     <ul className={animation}>
