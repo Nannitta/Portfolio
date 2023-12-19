@@ -10,6 +10,15 @@
   },
   {
     "id": "2",
+    "title": "Pokédex",
+    "description": "Imagina un viaje alucinante, mezclando nostalgia y tecnología: ¡Crear una app inspirada en la Pokédex de la primera generación fue como lanzarse a una aventura Pokémon!",
+    "languajes": ["Angular", "Sass", "TypeScript"],
+    "github": "https://github.com/Nannitta/Pokedex",
+    "website": "https://pokedex-complete.vercel.app",
+    "image": "pokedex"
+  },
+  {
+    "id": "3",
     "title": "GeoQuiz",
     "description": "Adivina el país a partir de su bandera, descubre el mundo adivinando la capital de cada país o trata de averiguar en que continente se encuentra cada uno. ¡Conviértete en un maestro de la geografía!",
     "languajes": ["React", "TypeScript", "Tailwind"],
@@ -18,7 +27,7 @@
     "image": "geoquiz"
   },
   {
-    "id": "3",
+    "id": "4",
     "title": "Rock Paper Scissors",
     "description": "Basado en el clásico juego de manos 'Piedra, Papel o Tijeras'. Con una interfaz de usuario sencilla, en la que podrás hacer click sobre el icono y seleccionar así tu opción. ¿Conseguirás ganar a tu oponente? ¡Descúbrelo!",
     "languajes": ["HTML", "CSS", "JavaScript"],
@@ -27,7 +36,7 @@
     "image": "rock-paper-scissors"
   },
   {
-    "id": "4",
+    "id": "5",
     "title": "Zelda Timeline",
     "description": "Timeline de videojuegos de la saga 'The Legend of Zelda'. Ofrece al usuario una experiencia interactiva y atractiva para explorar los diferentes videojuegos lanzados a lo largo de la historia.",
     "languajes": ["HTML", "CSS", "JavaScript"],
@@ -36,7 +45,7 @@
     "image": "zelda"
   },
   {
-    "id": "5",
+    "id": "6",
     "title": "Weather App",
     "description": "Proporciona información sobre el tiempo actual, la previsión para las próximas cinco horas, información general de los próximos dos días, viento y velocidad...",
     "languajes": ["HTML", "CSS", "JavaScript"],
