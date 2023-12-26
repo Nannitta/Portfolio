@@ -5,7 +5,7 @@
     "description": "Plataforma en línea diseñada para la compra y venta de videojuegos, consolas y PCs de segunda mano. La web permite a los usuarios buscar productos, registrarse para obtener acceso completo, publicar sus propios productos...",
     "languajes": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "React"],
     "github": "https://github.com/Nannitta/P2P-Marketplace",
-    "website": "https://youtu.be/J51EmE-M_NM",
+    "website": "https://player2player.vercel.app/",
     "image": "p2p"
   },
   {
