@@ -1,170 +1,181 @@
-@import 'animate.css';
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "animate.css";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 @font-face {
-  font-family: 'Harmony';
-  src: url('../../assets/fonts/Harmony.ttf');
-  font-display: swap;
+	font-family: "Harmony";
+	src: url("../../assets/fonts/Harmony.ttf");
+	font-display: swap;
 }
 
 .sobremi {
-  min-height: 100vh;
-  background-image: url('../../assets/foto_personal.webp');
-  background-position: right;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	min-height: 100vh;
+	background-image: url("../../assets/foto_personal.webp");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .img-gradient {
-  position: relative;
-  z-index: 1;
-  min-height: 100vh;
-  background: linear-gradient(90deg, var(--lightColor) 50%, rgba(255,255,255,0) 100%);
+	position: relative;
+	z-index: 1;
+	min-height: 100vh;
+	background: linear-gradient(
+		90deg,
+		var(--lightColor) 50%,
+		rgba(255, 255, 255, 0) 100%
+	);
 }
 
 .text-container {
-  height: 100vh;
-  width: 50%;
-  padding-left: 8rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	height: 100vh;
+	width: 50%;
+	padding-left: 8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .text-container h1 {
-  font-size: 4rem;
-  font-family: 'Bebas Neue', sans-serif;
+	font-size: 4rem;
+	font-family: "Bebas Neue", sans-serif;
 }
 
 .text-container h1 > span {
-  font-size: 15rem;
-  font-weight: 500;
-  color: var(--greenColor);
-  font-family: 'Harmony';
+	font-size: 15rem;
+	font-weight: 500;
+	color: var(--greenColor);
+	font-family: "Harmony";
 }
 
 .text-container p {
-  margin-bottom: 1.2rem;
-  line-height: 1.6;
+	margin-bottom: 1.2rem;
+	line-height: 1.6;
 }
 
 .job {
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: 'Bebas Neue', sans-serif;
-  margin-bottom: 1.5rem;
-  white-space: nowrap;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: "Bebas Neue", sans-serif;
+	margin-bottom: 1.5rem;
+	white-space: nowrap;
 	overflow: hidden;
 	animation: text 1.5s steps(18);
 }
 
 .social-links {
-  display: flex;
-  gap: 1.5rem;
-  justify-content: flex-end;
-  align-items: center;
+	display: flex;
+	gap: 1.5rem;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .social-links button {
-  font-size: 1rem;
-  margin-right: auto;
-  padding: 0.5rem 0.8rem;
-  background-color: #f6f7f1;
-  box-shadow: 2px 2px 1px 1px var(--darkColor);
-  border: 1px solid var(--darkColor);
+	font-size: 1rem;
+	margin-right: auto;
+	padding: 0.5rem 0.8rem;
+	background-color: #f6f7f1;
+	box-shadow: 2px 2px 1px 1px var(--darkColor);
+	border: 1px solid var(--darkColor);
 }
 
 .social-links button:hover {
-  transform: scale(1.2);
-  background-color: var(--greenColor);
-  box-shadow: 2px 2px 1px 1px var(--darkColor);
+	transform: scale(1.2);
+	background-color: var(--greenColor);
+	box-shadow: 2px 2px 1px 1px var(--darkColor);
 }
 
-.social-links button a:visited, .social-links button a {
-  color: var(--darkColor);
+.social-links button a:visited,
+.social-links button a {
+	color: var(--darkColor);
 }
 
-.social-links button:hover a:visited, .social-links button:hover a{
-  color: var(--lightColor);
+.social-links button:hover a:visited,
+.social-links button:hover a {
+	color: var(--lightColor);
+}
+
+a:not(.cv) {
+	transition: all 0.3s ease-in-out;
 }
 
 @keyframes text {
-	0% { 
-    width: 0; 
-  }
-	100% { 
-    width: 20ch; 
-  }
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 20ch;
+	}
 }
 
 @media (max-width: 1360px), (max-height: 768px) {
-  .sobremi {
-    background-position: left;
-  }
+	.sobremi {
+		background-position: left;
+	}
 
-  .text-container h1 {
-    font-size: 3rem;
-    margin-top: 2rem;
-  }
+	.text-container h1 {
+		font-size: 3rem;
+		margin-top: 2rem;
+	}
 
-  .text-container h1 > span {
-    font-size: 12rem;
-  }
+	.text-container h1 > span {
+		font-size: 12rem;
+	}
 }
 
 @media (max-width: 1440px), (max-height: 900px) {
-  .text-container h1 {
-    font-size: 3rem;
-    margin-top: 2rem;
-  }
+	.text-container h1 {
+		font-size: 3rem;
+		margin-top: 2rem;
+	}
 
-  .text-container h1 > span {
-    font-size: 12rem;
-  }
+	.text-container h1 > span {
+		font-size: 12rem;
+	}
 }
 
 @media (max-width: 1024px), (min-height: 1366px) {
-  .sobremi {
-    background-attachment: initial;
-    background-position: center;
-  }
+	.sobremi {
+		background-attachment: initial;
+		background-position: center;
+	}
 
-  .text-container h1 > span {
-    font-size: 9rem;
-  }
+	.text-container h1 > span {
+		font-size: 9rem;
+	}
 }
 
 @media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
-  .sobremi {
-    background-image: none;
-  }
-  .text-container {
-    width: 100%;
-    padding: 2rem;
-  }
+	.sobremi {
+		background-image: none;
+	}
+	.text-container {
+		width: 100%;
+		padding: 2rem;
+	}
 
-  .text-container h1, .job {
-    font-size: 1.5rem;
-  }
+	.text-container h1,
+	.job {
+		font-size: 1.5rem;
+	}
 
-  .text-container h1 > span {
-    font-size: 7rem;
-  }
+	.text-container h1 > span {
+		font-size: 7rem;
+	}
 
-  .text-container p {
-    font-size: 0.9rem;
-  }
+	.text-container p {
+		font-size: 0.9rem;
+	}
 
-  .social-links svg {
-    width: 25px;
-    height: 25px;
-  }
+	.social-links svg {
+		width: 25px;
+		height: 25px;
+	}
 
-  .social-links button {
-    font-size: 0.8rem;
-    margin-right: auto;
-    padding: 0.2rem 0.4rem;
-    background-color: #f6f7f1;
-    box-shadow: 2px 2px 1px 1px var(--darkColor);
-  }
+	.social-links button {
+		font-size: 0.8rem;
+		margin-right: auto;
+		padding: 0.2rem 0.4rem;
+		background-color: #f6f7f1;
+		box-shadow: 2px 2px 1px 1px var(--darkColor);
+	}
 }

@@ -1,91 +1,93 @@
 .project {
-  width: 30rem;
-  height: 23rem;
-  padding: 1.5rem;
-  border: 1px solid var(--darkColor);
-  background-color: #f6f7f1;
-  box-shadow: 8px 8px 1px 2px var(--darkColor);
-  display: flex;
-  flex-direction: column;
+	width: 30rem;
+	height: 23rem;
+	padding: 1.5rem;
+	border: 1px solid var(--darkColor);
+	background-color: #f6f7f1;
+	box-shadow: 8px 8px 1px 2px var(--darkColor);
+	display: flex;
+	flex-direction: column;
 }
 
 .logo {
-  height: 95px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+	height: 95px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 
 .logo img {
-  object-fit: contain;
-  width: 170px;
-  flex-grow: 1;
+	object-fit: contain;
+	width: 170px;
+	flex-grow: 1;
 }
 
 .languajes {
-  margin:0.5rem 0;
-  display: flex;
-  gap: 0.8rem;
-  justify-self: flex-start;
-  font-size: 0.8rem;
+	margin: 0.5rem 0;
+	display: flex;
+	gap: 0.8rem;
+	justify-self: flex-start;
+	font-size: 0.8rem;
 }
 
 .languajes p {
-  background-color: var(--greenColor);
-  color: var(--lightColor);
-  padding: 0.5rem;
-  border-radius: 5px;
+	background-color: var(--greenColor);
+	color: var(--lightColor);
+	padding: 0.5rem;
+	border-radius: 5px;
 }
 
 .links {
-  display: flex;
-  justify-self: flex-start;
-  gap: 0.8rem;
+	display: flex;
+	justify-self: flex-start;
+	gap: 0.8rem;
 }
 
 .links a:hover {
-  transform: scale(1.2);
+	transform: scale(1.2);
+	transition: all 0.3s ease-in-out;
 }
 
 .links a:hover svg path {
-  fill: var(--greenColor);
+	fill: var(--greenColor);
+	transition: all 0.3s ease-in-out;
 }
 
 .project h1 {
-  margin: 0.5rem 0;
-  text-align: center;
-  font-size: 1.5rem;
+	margin: 0.5rem 0;
+	text-align: center;
+	font-size: 1.5rem;
 }
 
 .description {
-  align-self: flex-start;
+	align-self: flex-start;
 }
 
 @media (max-width: 1360px), (max-height: 768px) {
-  .project {
-    width: 38rem;
-    height: 20.5rem;
-  }
+	.project {
+		width: 38rem;
+		height: 20.5rem;
+	}
 }
 
 @media (max-width: 1280px), (max-height: 800px) {
-  .project {
-    width: 30rem;
-    height: 21.5rem;
-  }
+	.project {
+		width: 30rem;
+		height: 21.5rem;
+	}
 }
 
 @media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
-  .project {
-    width: 20rem;
-    height: 29rem;
-  }
+	.project {
+		width: 20rem;
+		height: 29rem;
+	}
 
-  .project .links {
-    margin-bottom: 1rem;
-  }
+	.project .links {
+		margin-bottom: 1rem;
+	}
 
-  .languajes {
-    flex-wrap: wrap;
-  }
+	.languajes {
+		flex-wrap: wrap;
+	}
 }

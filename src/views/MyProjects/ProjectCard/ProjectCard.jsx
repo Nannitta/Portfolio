@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import LinkGithub from '../ProjectsLinks/LinkGithub';
 import LinkWeb from '../ProjectsLinks/LinkWeb';
+import LinkFigma from '../ProjectsLinks/LinkFigma';
 import './projectCard.css';
 import { Link } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ const ProjectCard = ({projects, image}) => {
         <div className='links'>
           <Link to={projects.github} target='_blank' title='Github'><LinkGithub/></Link>
           {projects.website ? <Link to={projects.website} target='_blank' title='Sitio Web'><LinkWeb/></Link> : null}
+          {projects.figma ? <Link to={projects.figma} target='_blank' title='Diseño Figma'><LinkFigma/></Link>: null}
         </div>
         <div className='logo'><img src={image} alt={projects.image} /></div>
         <div className='languajes'>
@@ -33,6 +35,7 @@ ProjectCard.propTypes = {
     languajes: PropTypes.array.isRequired,
     github: PropTypes.string.isRequired,
     website: PropTypes.string,
+    figma: PropTypes.string,
     image: PropTypes.string.isRequired
   }).isRequired,
   image: PropTypes.string.isRequired

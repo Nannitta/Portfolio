@@ -8,6 +8,9 @@ import Postman from '../Logos/Postman';
 import React from '../Logos/React';
 import Vite from '../Logos/Vite';
 import Bootstrap from '../Logos/Bootstrap';
+import Figma from '../Logos/Figma';
+import Tailwind from '../Logos/Tailwind';
+import TypeScript from '../Logos/TypeScript';
 import './technologiesList.css';
 
 const TechnologiesList = () => {
@@ -23,6 +26,9 @@ const TechnologiesList = () => {
       <li><React/></li>
       <li><Vite/></li>
       <li><Bootstrap/></li>
+      <li><Figma/></li>
+      <li><Tailwind/></li>
+      <li><TypeScript/></li>
     </ul>
   );
 };

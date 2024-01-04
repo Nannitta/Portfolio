@@ -1,55 +1,54 @@
-@import 'animate.css';
+@import "animate.css";
 
 .projects-list {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-  align-content: flex-start;
+	display: flex;
+	justify-content: center;
+	gap: 3rem;
+	flex-wrap: wrap;
+	margin-bottom: 2rem;
+	align-content: flex-start;
 }
 
 .projects-list li {
-  height: 22rem;
-  
+	height: 22rem;
 }
 
 .animate__fadeInUp {
-  animation: animate__fadeInUp;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-in-out;
+	animation: animate__fadeInUp;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in-out;
 }
 
 @media (max-width: 1360px), (max-height: 768px) {
-  .projects-list {
-    margin-bottom: 1.2rem;
-  }
+	.projects-list {
+		margin-bottom: 1.2rem;
+	}
 
-  .projects-list li {
-    height: 20.5rem;
-  }
+	.projects-list li {
+		height: 20.5rem;
+	}
 }
 
 @media (max-width: 1280px), (max-height: 800px) {
-  .projects-list li {
-    margin-bottom: 1rem;
-  }
+	.projects-list li {
+		margin-bottom: 1rem;
+	}
 }
 
 @media (max-width: 1024px), (min-height: 1366px) {
-  .projects-list {
-    flex-direction: column;
-    align-content: center;
-  }
+	.projects-list {
+		flex-direction: column;
+		align-content: center;
+	}
 }
 
 @media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
-  .projects-list {
-    gap: 9rem;
-    margin-bottom: 9rem;
-  }
+	.projects-list {
+		gap: 9rem;
+		margin-bottom: 9rem;
+	}
 
-  .animate__fadeInUp {
-    animation: none;
-  }
+	.animate__fadeInUp {
+		animation: none;
+	}
 }
