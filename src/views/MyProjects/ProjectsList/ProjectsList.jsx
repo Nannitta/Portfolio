@@ -7,9 +7,10 @@ import Rps from '../../../assets/projectsImages/rock-paper-scissors.webp';
 import P2P from '../../../assets/projectsImages/p2p.webp';
 import GeoQuiz from '../../../assets/projectsImages/geoquiz.webp';
 import Pokedex from '../../../assets/projectsImages/pokedex.webp';
+import Booklog from '../../../assets/projectsImages/booklog.webp';
 
 const ProjectsList = ({projects, animation}) => {
-  const logos = [P2P, Pokedex, GeoQuiz, Rps, Zelda, WeatherApp];
+  const logos = [P2P, Booklog, Pokedex, GeoQuiz, Rps, Zelda, WeatherApp];
 
   return (
     <ul className={animation}>

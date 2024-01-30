@@ -1,35 +1,36 @@
 .projects {
-  background-image: url('../../assets/blob-bg.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  min-height: 100vh;
+	background-image: url("../../assets/blob-bg.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	padding-bottom: 2rem;
 }
 
 .projects h2 {
-  padding: 3rem 0;
-  font-size: 3rem;
-  text-align: center;
+	padding: 3rem 0;
+	font-size: 3rem;
+	text-align: center;
 }
 
 @media (max-width: 1360px), (max-height: 768px) {
-  .projects {
-    background-size: cover;
-  }
+	.projects {
+		background-size: cover;
+	}
 }
 
 @media (max-width: 1440px), (max-height: 900px) {
-  .projects {
-    background-size: cover;
-  }
+	.projects {
+		background-size: cover;
+	}
 }
 
 @media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
-  .projects h2 {
-    font-size: 1.5rem;
-    padding: 1.5rem 0;
-  }
+	.projects h2 {
+		font-size: 1.5rem;
+		padding: 1.5rem 0;
+	}
 }
