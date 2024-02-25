@@ -3,6 +3,7 @@ import Gmail from './Logos/Gmail';
 import Linkedin from './Logos/Linkedin';
 import cv from '../../assets/cv.pdf';
 import './aboutme.css';
+import Figma from './Logos/Figma';
 
 const AboutMe = () => {
   return (
@@ -20,6 +21,7 @@ const AboutMe = () => {
           </p>
           <div className="social-links">
             <button><a href={cv} download title='Descargar CV' className='cv'>Descargar CV</a></button>
+            <Figma/>
             <GitHub/>
             <Gmail/>
             <Linkedin/>
