@@ -12,7 +12,7 @@ const AboutMe = () => {
         <div className="text-container">
           <h1>Hola, Soy <br /><span>Nair Gonzalez</span></h1>
           <h2 className='job'>Junior Web Developer</h2>
-          <p>
+          <p className='description'>
           Me encanta diseñar, innovar y experimentar. Soy una persona entusiasta
           a la cual le motiva afrontar nuevos retos y aprender nuevas habilidades.
           Programar me ha enseñado que los errores son oportunidades para aprender

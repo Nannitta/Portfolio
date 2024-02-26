@@ -1,19 +1,26 @@
 .skills {
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
+	display: flex;
+	flex-direction: row;
+	gap: 3rem;
+}
+
+.skills-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
 }
 
 @media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
-  .skills {
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0 2rem;
-  }
+	.skills {
+		gap: 2rem;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0 2rem;
+	}
 
-  .skills svg {
-    width: 20px;
-    height: 20px;
-  }
+	.skills svg {
+		width: 24px;
+		height: 24px;
+	}
 }

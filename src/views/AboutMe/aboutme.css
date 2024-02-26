@@ -62,6 +62,10 @@
 	animation: text 1.5s steps(18);
 }
 
+.description {
+	color: #666464;
+}
+
 .social-links {
 	display: flex;
 	gap: 1.5rem;
