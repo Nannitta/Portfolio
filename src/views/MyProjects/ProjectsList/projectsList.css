@@ -44,11 +44,20 @@
 
 @media (min-width: 360px) and (max-width: 1023px), (max-height: 640px) {
 	.projects-list {
-		gap: 9rem;
+		gap: 10rem;
 		margin-bottom: 9rem;
 	}
 
 	.animate__fadeInUp {
 		animation: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1366px) and (min-height: 1024px) {
+	.projects-list {
+		gap: 0;
+		column-gap: 2rem;
+		row-gap: 11rem;
+		flex-direction: row;
 	}
 }

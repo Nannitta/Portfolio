@@ -183,3 +183,12 @@ a:not(.cv) {
 		box-shadow: 2px 2px 1px 1px var(--darkColor);
 	}
 }
+
+@media (min-width: 768px) and (max-width: 1366px) and (min-height: 1024px) {
+	.sobremi,
+	.img-gradient,
+	.text-container {
+		min-height: 55vh;
+		max-height: 55vh;
+	}
+}
