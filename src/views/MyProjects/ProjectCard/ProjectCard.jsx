@@ -17,7 +17,7 @@ const ProjectCard = ({projects, image}) => {
           </div>
           {
             projects.underConstruction
-              ? <div>🚧</div>
+              ? <div>🛠️🚧🏗️</div>
               : null
           }
         </div>
