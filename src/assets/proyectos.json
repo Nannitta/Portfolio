@@ -7,67 +7,96 @@
     "github": "https://github.com/Nannitta/P2P-Marketplace",
     "website": "https://player2player.vercel.app/",
     "figma":"https://www.figma.com/file/VOaVwHXdjnawV3z55MhUQN/P2P---Player2Player-Marketplace?type=design&node-id=0%3A1&mode=design&t=nn3edbck8YS7ON4f-1",
-    "image": "p2p"
+    "image": "p2p",
+    "underConstruction": false
   },
   {
     "id": "2",
+    "title": "AECC - Eventos deportivos",
+    "description": "Proyecto de voluntariado para la Asociación Española Contra el Cáncer de A Coruña. Web donde consultar eventos y actividades deportivas organizadas por la asociación en la provincia de A Coruña.",
+    "languajes": ["Node.js", "Express", "MySQL", "Next.js", "Tailwind"],
+    "github": "https://github.com/AnaBelenBernardez/aecc",
+    "website": "",
+    "figma":"https://www.figma.com/file/e8ntkYMBhjdPdk01BjmB03/Aecc?type=design&node-id=0%3A1&mode=design&t=OwXb5yykCdPTfiJk-1",
+    "image": "aecc",
+    "underConstruction": false
+  },
+  {
+    "id": "3",
+    "title": "Escandallos",
+    "description": "Herramienta integral para la gestión eficiente de restaurantes, diseñada para optimizar todos los aspectos del negocio, desde la creación y gestión de la carta hasta el control de inventario y la gestión de proveedores.",
+    "languajes": ["DDD", "TDD", "Node.js", "Express", "TypeScript", "Jest", "Docker"],
+    "github": "https://github.com/Nannitta/overCooked",
+    "website": "",
+    "figma":"",
+    "image": "construccion",
+    "underConstruction": true
+  },
+  {
+    "id": "4",
     "title": "BookLog",
     "description": "Gestiona tu biblioteca personal en cualquier momento y lugar con esta app móvil. Añade, edita y elimina libros fácilmente, con la seguridad de Firebase. Lleva tu pasión por la lectura en tu bolsillo",
     "languajes": ["React Native", "TypeScript", "Firebase", "Node.js"],
     "github": "https://github.com/Nannitta/BookLog",
     "website": "",
     "figma":"https://www.figma.com/file/jlNgZ5WW6Xvtk3ou2rhy8r/Prueba-T%C3%A9cnica---Bubbo?type=design&node-id=0%3A1&mode=design&t=4LIPz8OajN5tWpNL-1",
-    "image": "booklog"
+    "image": "booklog",
+    "underConstruction": false
   },
   {
-    "id": "3",
+    "id": "5",
     "title": "Pokédex",
     "description": "Imagina un viaje alucinante, mezclando nostalgia y tecnología: ¡Crear una app inspirada en la Pokédex de la primera generación fue como lanzarse a una aventura Pokémon!",
     "languajes": ["Angular", "Sass", "TypeScript"],
     "github": "https://github.com/Nannitta/Pokedex",
     "website": "https://pokedex-complete.vercel.app",
     "figma":"https://www.figma.com/file/d3Oh1efAhcHs2JiurehbVW/Pok%C3%A9dex?type=design&mode=design&t=nn3edbck8YS7ON4f-1",
-    "image": "pokedex"
+    "image": "pokedex",
+    "underConstruction": false
   },
   {
-    "id": "4",
+    "id": "6",
     "title": "GeoQuiz",
     "description": "Adivina el país a partir de su bandera, descubre el mundo adivinando la capital de cada país o trata de averiguar en que continente se encuentra cada uno. ¡Conviértete en un maestro de la geografía!",
     "languajes": ["React", "TypeScript", "Tailwind"],
     "github": "https://github.com/Nannitta/GeoQuiz",
     "website": "https://geoquiz-geoapp.vercel.app/",
     "figma":"https://www.figma.com/file/atf5XNqZXEuTbOOAsoFQFV/GeoQuiz?type=design&mode=design&t=nn3edbck8YS7ON4f-1",
-    "image": "geoquiz"
+    "image": "geoquiz",
+    "underConstruction": false
   },
   {
-    "id": "5",
+    "id": "7",
     "title": "Rock Paper Scissors",
     "description": "Basado en el clásico juego de manos 'Piedra, Papel o Tijeras'. Con una interfaz de usuario sencilla, en la que podrás hacer click sobre el icono y seleccionar así tu opción. ¿Conseguirás ganar a tu oponente? ¡Descúbrelo!",
     "languajes": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Nannitta/Rock-Paper-Scissors",
     "website": "https://rock-paper-scissors-nannitta.vercel.app/",
     "figma":"",
-    "image": "rock-paper-scissors"
+    "image": "rock-paper-scissors",
+    "underConstruction": false
   },
   {
-    "id": "6",
+    "id": "8",
     "title": "Zelda Timeline",
     "description": "Timeline de videojuegos de la saga 'The Legend of Zelda'. Ofrece al usuario una experiencia interactiva y atractiva para explorar los diferentes videojuegos lanzados a lo largo de la historia.",
     "languajes": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Nannitta/ZeldaTimeline",
     "website": "https://zeldatimeline.vercel.app/",
     "figma":"",
-    "image": "zelda"
+    "image": "zelda",
+    "underConstruction": false
   },
   {
-    "id": "7",
+    "id": "9",
     "title": "Weather App",
     "description": "Proporciona información sobre el tiempo actual, la previsión para las próximas cinco horas, información general de los próximos dos días, viento y velocidad...",
     "languajes": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/Nannitta/WeatherAPP",
     "website": "",
     "figma":"",
-    "image": "weatherApp"
+    "image": "weatherApp",
+    "underConstruction": false
   }
 ]
 

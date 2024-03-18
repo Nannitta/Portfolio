@@ -8,16 +8,31 @@ import P2P from '../../../assets/projectsImages/p2p.webp';
 import GeoQuiz from '../../../assets/projectsImages/geoquiz.webp';
 import Pokedex from '../../../assets/projectsImages/pokedex.webp';
 import Booklog from '../../../assets/projectsImages/booklog.webp';
+import Aecc from '../../../assets/projectsImages/aecc.webp';
+import UnderConstruction from '../../../assets/projectsImages/construccion.webp';
+import { useState } from 'react';
 
 const ProjectsList = ({projects, animation}) => {
-  const logos = [P2P, Booklog, Pokedex, GeoQuiz, Rps, Zelda, WeatherApp];
+  const logos = [P2P, Aecc, UnderConstruction, Booklog, Pokedex, GeoQuiz, Rps, Zelda, WeatherApp];
+  const [visibleProjects, setVisibleProjects] = useState(6);
+
+  const handleClikLoadMore = () => {
+    setVisibleProjects(projects.lenght);
+  };
 
   return (
-    <ul className={animation}>
+    <>
+      <ul className={animation}>
+        {projects.slice(0, visibleProjects).map((project, index) => (
+          <ProjectCard key={project.id} projects={project} image={logos[index]} />
+        ))}
+      </ul>
       {
-        projects.map((project, index) => { return <ProjectCard key={project.id} projects={project} image={logos[index]}/>;})
+        visibleProjects <= projects.length
+          ? <button className='load-more animation' onClick={handleClikLoadMore}>VER MÁS</button>  
+          : null 
       }
-    </ul>
+    </>
   );
 };
 

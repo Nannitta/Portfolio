@@ -9,10 +9,17 @@ const ProjectCard = ({projects, image}) => {
   return (
     <li>
       <article className='project'>
-        <div className='links'>
-          <Link to={projects.github} target='_blank' title='Github'><LinkGithub/></Link>
-          {projects.website ? <Link to={projects.website} target='_blank' title='Sitio Web'><LinkWeb/></Link> : null}
-          {projects.figma ? <Link to={projects.figma} target='_blank' title='Diseño Figma'><LinkFigma/></Link>: null}
+        <div className='container-links'>
+          <div className='links'>
+            <Link to={projects.github} target='_blank' title='Github'><LinkGithub/></Link>
+            {projects.website ? <Link to={projects.website} target='_blank' title='Sitio Web'><LinkWeb/></Link> : null}
+            {projects.figma ? <Link to={projects.figma} target='_blank' title='Diseño Figma'><LinkFigma/></Link>: null}
+          </div>
+          {
+            projects.underConstruction
+              ? <div>🚧</div>
+              : null
+          }
         </div>
         <div className='logo'><img src={image} alt={projects.image} /></div>
         <div className='languajes'>
@@ -36,7 +43,8 @@ ProjectCard.propTypes = {
     github: PropTypes.string.isRequired,
     website: PropTypes.string,
     figma: PropTypes.string,
-    image: PropTypes.string.isRequired
+    image: PropTypes.string.isRequired,
+    underConstruction: PropTypes.bool.isRequired
   }).isRequired,
   image: PropTypes.string.isRequired
 };
