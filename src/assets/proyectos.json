@@ -13,10 +13,10 @@
   {
     "id": "2",
     "title": "AECC - Eventos deportivos",
-    "description": "Proyecto de voluntariado para la Asociación Española Contra el Cáncer de A Coruña. Web donde consultar eventos y actividades deportivas organizadas por la asociación en la provincia de A Coruña.",
+    "description": "Proyecto de voluntariado para la Asociación Española Contra el Cáncer de A Coruña. Web donde consultar eventos y actividades deportivas organizadas por la asociación. Gestión de eventos, noticias, patrocinios...",
     "languajes": ["Node.js", "Express", "MySQL", "Next.js", "Tailwind"],
     "github": "https://github.com/AnaBelenBernardez/aecc",
-    "website": "",
+    "website": "https://corunaenmarchacontraocancro.com/",
     "figma":"https://www.figma.com/file/e8ntkYMBhjdPdk01BjmB03/Aecc?type=design&node-id=0%3A1&mode=design&t=OwXb5yykCdPTfiJk-1",
     "image": "aecc",
     "underConstruction": false
@@ -35,7 +35,7 @@
   {
     "id": "4",
     "title": "BookLog",
-    "description": "Gestiona tu biblioteca personal en cualquier momento y lugar con esta app móvil. Añade, edita y elimina libros fácilmente, con la seguridad de Firebase. Lleva tu pasión por la lectura en tu bolsillo",
+    "description": "Gestiona tu biblioteca personal en cualquier momento y lugar con esta app móvil. Añade, edita y elimina libros fácilmente, con la seguridad de Firebase. Lleva tu pasión por la lectura en tu bolsillo.",
     "languajes": ["React Native", "TypeScript", "Firebase", "Node.js"],
     "github": "https://github.com/Nannitta/BookLog",
     "website": "",
