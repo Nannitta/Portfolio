@@ -16,7 +16,7 @@
     "description": "Proyecto de voluntariado para la Asociación Española Contra el Cáncer de A Coruña. Web donde consultar eventos y actividades deportivas organizadas por la asociación. Gestión de eventos, noticias, patrocinios...",
     "languajes": ["Node.js", "Express", "MySQL", "Next.js", "Tailwind"],
     "github": "https://github.com/AnaBelenBernardez/aecc",
-    "website": "https://corunaenmarchacontraocancro.com/",
+    "website": "https://corunaenmarchacontraocancro.com",
     "figma":"https://www.figma.com/file/e8ntkYMBhjdPdk01BjmB03/Aecc?type=design&node-id=0%3A1&mode=design&t=OwXb5yykCdPTfiJk-1",
     "image": "aecc",
     "underConstruction": false
