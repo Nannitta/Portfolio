@@ -10,10 +10,11 @@ import Pokedex from '../../../assets/projectsImages/pokedex.webp';
 import Booklog from '../../../assets/projectsImages/booklog.webp';
 import Aecc from '../../../assets/projectsImages/aecc.webp';
 import UnderConstruction from '../../../assets/projectsImages/construccion.webp';
+import CineSneak from '../../../assets/projectsImages/cinesneak.png';
 import { useState } from 'react';
 
 const ProjectsList = ({projects, animation}) => {
-  const logos = [P2P, Aecc, UnderConstruction, Booklog, Pokedex, GeoQuiz, Rps, Zelda, WeatherApp];
+  const logos = [P2P, Aecc, CineSneak, UnderConstruction, Booklog, Pokedex, GeoQuiz, Rps, Zelda, WeatherApp];
   const [visibleProjects, setVisibleProjects] = useState(6);
 
   const handleClikLoadMore = () => {
