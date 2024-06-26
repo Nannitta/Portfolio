@@ -14,7 +14,7 @@ import CineSneak from '../../../assets/projectsImages/cinesneak.webp';
 import { useState } from 'react';
 
 const ProjectsList = ({projects, animation}) => {
-  const logos = [P2P, Aecc, CineSneak, UnderConstruction, Booklog, Pokedex, GeoQuiz, Rps, Zelda, WeatherApp];
+  const logos = [P2P, Aecc, CineSneak, UnderConstruction, Pokedex, Booklog, GeoQuiz, Rps, Zelda, WeatherApp];
   const [visibleProjects, setVisibleProjects] = useState(6);
 
   const handleClikLoadMore = () => {
