@@ -1,13 +1,13 @@
 [
   {
     "id": "1",
-    "title": "P2P - Marketplace",
-    "description": "Plataforma en línea diseñada para la compra y venta de videojuegos, consolas y PCs de segunda mano. La web permite a los usuarios buscar productos, registrarse para obtener acceso completo, publicar sus propios productos...",
-    "languajes": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "React"],
-    "github": "https://github.com/Nannitta/P2P-Marketplace",
-    "website": "https://player2player.vercel.app/",
-    "figma":"https://www.figma.com/file/VOaVwHXdjnawV3z55MhUQN/P2P---Player2Player-Marketplace?type=design&node-id=0%3A1&mode=design&t=nn3edbck8YS7ON4f-1",
-    "image": "p2p",
+    "title": "Aarox Electronics",
+    "description": "Desarrollo de web corporativa para Aarox Electronics, empresa dedicada a la venta de productos electrónicos. El objetivo principal es proporcionar una plataforma en línea donde los usuarios puedan conocer más sobre la empresa.",
+    "languajes": ["Next.js", "CSS", "Zustand"],
+    "github": "https://github.com/Nannitta/AaroxElectronics",
+    "website": "https://www.aaroxelectronics.es/",
+    "figma":"",
+    "image": "aarox",
     "underConstruction": false
   },
   {
@@ -23,6 +23,17 @@
   },
   {
     "id": "3",
+    "title": "P2P - Marketplace",
+    "description": "Plataforma en línea diseñada para la compra y venta de videojuegos, consolas y PCs de segunda mano. La web permite a los usuarios buscar productos, registrarse para obtener acceso completo, publicar sus propios productos...",
+    "languajes": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "React"],
+    "github": "https://github.com/Nannitta/P2P-Marketplace",
+    "website": "https://player2player.vercel.app/",
+    "figma":"https://www.figma.com/file/VOaVwHXdjnawV3z55MhUQN/P2P---Player2Player-Marketplace?type=design&node-id=0%3A1&mode=design&t=nn3edbck8YS7ON4f-1",
+    "image": "p2p",
+    "underConstruction": false
+  },
+  {
+    "id": "4",
     "title": "CineSneak",
     "description": "App donde puedes visitar un extenso catálogo de series y películas. No es solo otra aplicación de entretenimiento, ¡Es mucho más que eso!, tendrás la oportunidad de personalizar tu experiencia de visualización al máximo.",
     "languajes": ["Next", "TypeScript", "Tailwind", "Zustand", "Jest", "Cypress"],
@@ -33,7 +44,7 @@
     "underConstruction": true
   },
   {
-    "id": "4",
+    "id": "5",
     "title": "Escandallos",
     "description": "Herramienta integral para la gestión eficiente de restaurantes, diseñada para optimizar todos los aspectos del negocio, desde la creación y gestión de la carta hasta el control de inventario y la gestión de proveedores.",
     "languajes": ["DDD", "TDD", "Node.js", "Express", "TypeScript", "Jest", "Docker"],
@@ -44,7 +55,7 @@
     "underConstruction": true
   },
   {
-    "id": "5",
+    "id": "6",
     "title": "Pokédex",
     "description": "Imagina un viaje alucinante, mezclando nostalgia y tecnología: ¡Crear una app inspirada en la Pokédex de la primera generación fue como lanzarse a una aventura Pokémon!",
     "languajes": ["Angular", "Sass", "TypeScript"],
@@ -55,7 +66,7 @@
     "underConstruction": false
   },
   {
-    "id": "6",
+    "id": "7",
     "title": "BookLog",
     "description": "Gestiona tu biblioteca personal en cualquier momento y lugar con esta app móvil. Añade, edita y elimina libros fácilmente, con la seguridad de Firebase. Lleva tu pasión por la lectura en tu bolsillo.",
     "languajes": ["React Native", "TypeScript", "Firebase", "Node.js"],
@@ -66,7 +77,7 @@
     "underConstruction": false
   },
   {
-    "id": "7",
+    "id": "8",
     "title": "GeoQuiz",
     "description": "Adivina el país a partir de su bandera, descubre el mundo adivinando la capital de cada país o trata de averiguar en que continente se encuentra cada uno. ¡Conviértete en un maestro de la geografía!",
     "languajes": ["React", "TypeScript", "Tailwind"],
@@ -77,7 +88,7 @@
     "underConstruction": false
   },
   {
-    "id": "8",
+    "id": "9",
     "title": "Rock Paper Scissors",
     "description": "Basado en el clásico juego de manos 'Piedra, Papel o Tijeras'. Con una interfaz de usuario sencilla, en la que podrás hacer click sobre el icono y seleccionar así tu opción. ¿Conseguirás ganar a tu oponente? ¡Descúbrelo!",
     "languajes": ["HTML", "CSS", "JavaScript"],
@@ -88,7 +99,7 @@
     "underConstruction": false
   },
   {
-    "id": "9",
+    "id": "10",
     "title": "Zelda Timeline",
     "description": "Timeline de videojuegos de la saga 'The Legend of Zelda'. Ofrece al usuario una experiencia interactiva y atractiva para explorar los diferentes videojuegos lanzados a lo largo de la historia.",
     "languajes": ["HTML", "CSS", "JavaScript"],
@@ -99,7 +110,7 @@
     "underConstruction": false
   },
   {
-    "id": "10",
+    "id": "11",
     "title": "Weather App",
     "description": "Proporciona información sobre el tiempo actual, la previsión para las próximas cinco horas, información general de los próximos dos días, viento y velocidad...",
     "languajes": ["HTML", "CSS", "JavaScript"],
