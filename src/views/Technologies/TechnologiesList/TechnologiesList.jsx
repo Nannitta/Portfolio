@@ -7,7 +7,7 @@ import Git from '../Logos/Git';
 import Postman from '../Logos/Postman';
 import React from '../Logos/React';
 import Vite from '../Logos/Vite';
-import Bootstrap from '../Logos/Bootstrap';
+import Next from '../Logos/Next';
 import Figma from '../Logos/Figma';
 import Tailwind from '../Logos/Tailwind';
 import TypeScript from '../Logos/TypeScript';
@@ -23,10 +23,10 @@ const TechnologiesList = () => {
       <li className='skills-list'><MySQL/>MySQL</li>
       <li className='skills-list'><Node/>Node.js</li>
       <li className='skills-list'><Git/>Git</li>
-      <li className='skills-list'><Postman/>Postman</li>
       <li className='skills-list'><React/>React</li>
+      <li className='skills-list'><Next/>Next.js</li>
+      <li className='skills-list'><Postman/>Postman</li>
       <li className='skills-list'><Vite/>Vite</li>
-      <li className='skills-list'><Bootstrap/>Bootstrap</li>
       <li className='skills-list'><Figma/>Figma</li>
       <li className='skills-list'><Tailwind/>Tailwind</li>
       <li className='skills-list'><TypeScript/>TypeScript</li>

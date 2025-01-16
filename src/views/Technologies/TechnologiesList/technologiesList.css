@@ -28,3 +28,9 @@
 		height: 24px;
 	}
 }
+
+@media (max-width: 1360px), (max-height: 768px) {
+	.skills {
+		gap: 2.5rem;
+	}
+}
