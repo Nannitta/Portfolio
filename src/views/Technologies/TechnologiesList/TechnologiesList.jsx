@@ -6,7 +6,7 @@ import Node from '../Logos/Node';
 import Git from '../Logos/Git';
 import Postman from '../Logos/Postman';
 import React from '../Logos/React';
-import Vite from '../Logos/Vite';
+import Cypress from '../Logos/Cypress';
 import Next from '../Logos/Next';
 import Figma from '../Logos/Figma';
 import Tailwind from '../Logos/Tailwind';
@@ -26,11 +26,11 @@ const TechnologiesList = () => {
       <li className='skills-list'><React/>React</li>
       <li className='skills-list'><Next/>Next.js</li>
       <li className='skills-list'><Postman/>Postman</li>
-      <li className='skills-list'><Vite/>Vite</li>
       <li className='skills-list'><Figma/>Figma</li>
       <li className='skills-list'><Tailwind/>Tailwind</li>
       <li className='skills-list'><TypeScript/>TypeScript</li>
       <li className='skills-list'><Jest/>Jest</li>
+      <li className='skills-list'><Cypress/>Cypress</li>
     </ul>
   );
 };
